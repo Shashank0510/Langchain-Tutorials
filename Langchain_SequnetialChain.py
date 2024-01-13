@@ -6,7 +6,7 @@ from langchain.chains import LLMChain
 from langchain.chains import SequentialChain 
 
 
-openai_key = "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" 
+openai_key = "**************************************" 
 os.environ["OPENAI_API_KEY"] = openai_key
 
 st.title('Langchain Demo with OpenAI')
